@@ -23,8 +23,12 @@ const Hero = () => {
       <div className="text-center max-w-4xl mx-auto space-y-8" style={{ animation: "fade-in-up 1s ease-out" }}>
         
         {/* Photo placeholder */}
-        <div className="w-32 h-32 mx-auto rounded-full glass flex items-center justify-center neon-border">
-          <User size={48} className="text-muted-foreground" />
+        <div className="w-32 h-32 mx-auto rounded-full glass neon-border overflow-hidden">
+          <img
+            src="/profile.jpg"
+            alt="Thirupathaiah"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         {/* Heading */}
