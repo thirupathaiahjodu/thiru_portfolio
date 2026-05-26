@@ -53,7 +53,7 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-lg sm:text-xl text-muted-foreground font-light tracking-wide max-w-2xl mx-auto">
-          1 year of hands-on experience building web applications using Django, MySQL, HTML, CSS, and JavaScript.
+          2+ year of hands-on experience building web applications using Django, MySQL, HTML, CSS, and JavaScript.
         </p>
 
         {/* Buttons */}
